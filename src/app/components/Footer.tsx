@@ -49,17 +49,23 @@ export const Footer = () => {
 
         <BlurReveal delay={0.1} y={15}>
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <span className="text-[13px] text-white/15 tracking-[-0.01em]">
+            <span className="text-[13px] text-white/25 tracking-[-0.01em]">
               &copy; {new Date().getFullYear()} Диалог Эксперт. Все права защищены.
             </span>
 
             <div className="flex gap-6">
-              <span className="text-[13px] text-white/15 tracking-[-0.01em] cursor-default">
+              <a
+                href="#"
+                className="text-[13px] text-white/40 hover:text-white/80 tracking-[-0.01em] transition-colors underline-offset-4 hover:underline"
+              >
                 Политика конфиденциальности
-              </span>
-              <span className="text-[13px] text-white/15 tracking-[-0.01em] cursor-default">
+              </a>
+              <a
+                href="#"
+                className="text-[13px] text-white/40 hover:text-white/80 tracking-[-0.01em] transition-colors underline-offset-4 hover:underline"
+              >
                 Пользовательское соглашение
-              </span>
+              </a>
             </div>
           </div>
         </BlurReveal>
