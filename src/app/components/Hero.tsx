@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from 'motion/react';
 import svgPaths from '../../imports/svg-2fzfvhnwda';
-import imgDashboard from "figma:asset/efd27c719fc59bd773a877eb7264540ab8646a50.png";
+import imgDashboard from '../../assets/efd27c719fc59bd773a877eb7264540ab8646a50.png';
 import { Constellation } from './Constellation';
 import { FloatingElement, SplitText, TextShimmer, ease } from './motion-utils';
 import { useSmoothScroll } from './SmoothScroll';
